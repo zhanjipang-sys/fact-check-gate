@@ -1,0 +1,18 @@
+FACT-CHECK GATE: FAIL
+trial_dir: /home/hatch/workspace/github-uploads/fact-check-gate/examples/fail-example-ipo
+claims_file: claims.json, images_file: images.json
+generator: Gemini-4, l2_reviewer: Gemini-4
+FAIL原因 13 条:
+  - 规则6: L2复核者与生成者相同（Gemini-4），违反执行者不自审
+  - 规则3: S01 引用查无卡 C01（断言: Anthropic以813亿美元完成IPO）
+  - 规则3: S02 引用证伪卡 C02（断言: 公司估值达到20000亿美元）
+  - 规则1: script.md 第4行无卡号回指: 这家公司昨天已经在交易所敲钟上市。
+  - 规则3: S03 引用查无卡 C03（断言: 首席执行官表示这是人工智能行业最伟大的一天（虚构引语））
+  - 规则2: S04 引用存疑卡 C04 且无 L3 拍板记录(l3_decision)
+  - 规则4: 对账表第2行「IPO规模」结论=对不上
+  - 规则4: 对账表第3行「公司估值」结论=对不上
+  - 规则4: S04 中数字 999 未入数字对账表
+  - 规则5: 图片 IMG-01 无来源字段(source)
+  - 规则5: 图片 IMG-01 为生成图但未标「示意图」
+  - 规则5: 图片 IMG-02 结论不是「可用」: '存疑'
+  - 规则5: 图片 IMG-02 为生成图但未标「示意图」

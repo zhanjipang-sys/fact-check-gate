@@ -1,0 +1,4 @@
+{"images": [
+  {"image_id": "IMG-01", "source": "", "source_type": "生成图", "is_generated": true, "label": "", "verdict": "可用"},
+  {"image_id": "IMG-02", "source": "生成报纸头版，无原始出处", "source_type": "生成图", "is_generated": true, "label": "报纸头版", "verdict": "存疑"}
+]}

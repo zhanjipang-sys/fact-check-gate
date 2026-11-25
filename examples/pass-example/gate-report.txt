@@ -1,0 +1,5 @@
+FACT-CHECK GATE: PASS
+trial_dir: /home/hatch/workspace/github-uploads/fact-check-gate/examples/pass-example
+claims_file: claims.json, images_file: images.json
+generator: Gemini-4, l2_reviewer: GLM-5.4
+FAIL原因 0 条:

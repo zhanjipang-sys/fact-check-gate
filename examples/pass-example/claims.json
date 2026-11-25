@@ -1,0 +1,10 @@
+{
+  "generator": "Gemini-4",
+  "l2_reviewer": "GLM-5.4",
+  "claims": [
+    {"claim_id": "C01", "claim": "试点活动于本周一正式启动", "type": "事件", "verdict": "证实", "sources": [{"url": "https://example.org/official/notice-1", "level": "一手", "publisher": "主办方官网"}, {"url": "https://example.org/news/report-1", "level": "二手", "publisher": "地方媒体"}], "l3_decision": ""},
+    {"claim_id": "C02", "claim": "共有120名参与者报名", "type": "数字", "verdict": "证实", "sources": [{"url": "https://example.org/official/notice-1", "level": "一手", "publisher": "主办方官网"}], "l3_decision": ""},
+    {"claim_id": "C03", "claim": "活动持续3天", "type": "数字", "verdict": "证实", "sources": [{"url": "https://example.org/official/notice-1", "level": "一手", "publisher": "主办方官网"}], "l3_decision": ""},
+    {"claim_id": "C04", "claim": "活动全程免费开放", "type": "事件", "verdict": "证实", "sources": [{"url": "https://example.org/official/notice-1", "level": "一手", "publisher": "主办方官网"}], "l3_decision": ""}
+  ]
+}

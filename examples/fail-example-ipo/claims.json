@@ -1,0 +1,10 @@
+{
+  "generator": "Gemini-4",
+  "l2_reviewer": "Gemini-4",
+  "claims": [
+    {"claim_id": "C01", "claim": "Anthropic以813亿美元完成IPO", "type": "事件/数字", "verdict": "查无", "sources": [], "l3_decision": ""},
+    {"claim_id": "C02", "claim": "公司估值达到20000亿美元", "type": "数字", "verdict": "证伪", "sources": [], "l3_decision": ""},
+    {"claim_id": "C03", "claim": "首席执行官表示这是人工智能行业最伟大的一天（虚构引语）", "type": "引语", "verdict": "查无", "sources": [], "l3_decision": ""},
+    {"claim_id": "C04", "claim": "首日认购额999亿美元", "type": "数字", "verdict": "存疑", "sources": [], "l3_decision": ""}
+  ]
+}
